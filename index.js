@@ -1,6 +1,6 @@
 const express = require("express");
 
-cosnt app = express();
+const app = express();
 
 app.use("/", (req, res) => {
     res.send("Hello World, this is node server");
